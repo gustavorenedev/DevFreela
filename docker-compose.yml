@@ -1,0 +1,6 @@
+services:
+  devfreela.api:
+    image: ${DOCKER_REGISTRY-}devfreelaapi
+    build:
+      context: .
+      dockerfile: DevFreela.API/Dockerfile
